@@ -1,0 +1,50 @@
+#start_button
+{
+    width: 16%;
+    background-color:whitesmoke;
+    color:purple;
+    font-size:20px;
+    font-family:'Times New Roman', Times, serif ;
+    font-weight:bold;
+} 
+#camera
+{
+    width:360px;
+    height: 250px;
+    border:1px solid grey;
+}
+#logo_image
+{
+    width: 150px;
+    border-radius: 100px;
+}
+#textbox
+{
+    width: 300px;
+}
+body{
+    background-size:cover;
+}
+.h4Class{
+    font-size:25px; 
+    font-family:'Times New Roman', Times, serif ;
+    font-weight:bold;
+}
+.pClass{
+    font-size:25px;
+    font-family:'Times New Roman', Times, serif;
+    font-weight:bold; 
+}
+h1{
+    background-color: rgb(255, 255, 255);
+    border-radius:15% ;
+}
+.lableClass{
+    font-size:16px;
+    font-family:'Times New Roman', Times, serif;
+}
+.lableClass2{
+    font-size:20px;
+    font-weight:bold;
+    font-family:'Times New Roman', Times, serif;
+}

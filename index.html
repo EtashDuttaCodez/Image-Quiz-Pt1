@@ -1,0 +1,43 @@
+<html>
+
+<head>
+    <title>My Selfie App</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/webcamjs/1.0.26/webcam.js"></script>
+    <link href="style.css" rel="stylesheet">
+
+</head>
+
+<body background="Bg.jpg">
+    <div class="container">
+        <center>
+            <h1>Image Quiz
+                <img id="logo_image" src="Logo.gif">
+            </h1>
+            <hr>
+            <h4 class="h4class" style="color:rgb(19, 0, 187);">Speak out the name of the image shown.</h4>
+            <label class="lableClass">Given Image : </label>
+            <div id="quizImage"></div>
+            <br>
+            <div class="form-group">
+                <label class="lableClass2">Your voice output : </label>
+                <textarea class="form-control" id="textbox" readonly="true"></textarea>
+
+            </div>
+
+            <p class="pClass">Press the Check button</p>
+            <button class="btn btn-primary" id="start_button" onclick="Start()">Check Answer.</button>
+            <br>
+            <br>
+            <div id="result"></div>
+
+        </center>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+
+</html>
